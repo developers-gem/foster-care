@@ -103,9 +103,15 @@ const Navbar = () => {
 
         {/* Desktop CTA */}
         <div className="hidden lg:flex items-center gap-3">
-          <Button variant="ghost" size="sm" className="text-foreground hover:text-white">
-            Log In
-          </Button>
+          <Link to="/login">
+  <Button
+    variant="ghost"
+    size="sm"
+    className="text-foreground hover:text-white"
+  >
+    Log In
+  </Button>
+</Link>
           <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-6 rounded-full">
             Get a demo
           </Button>
