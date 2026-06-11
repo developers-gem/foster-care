@@ -24,9 +24,9 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-base">R</span>
+            <span className="text-primary-foreground font-bold text-base">HP</span>
           </div>
-          <span className="font-display text-xl font-bold text-foreground tracking-tight">ResiPilot</span>
+          <span className="font-display text-xl font-bold text-foreground tracking-tight">Habitat Pilot</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -104,6 +104,7 @@ const Navbar = () => {
         {/* Desktop CTA */}
         <div className="hidden lg:flex items-center gap-3">
           <Link to="/login">
+ <a href="/login">
   <Button
     variant="ghost"
     size="sm"
@@ -111,6 +112,7 @@ const Navbar = () => {
   >
     Log In
   </Button>
+</a>
 </Link>
           <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-6 rounded-full">
             Get a demo
