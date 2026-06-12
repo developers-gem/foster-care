@@ -103,7 +103,7 @@ const Navbar = () => {
 
         {/* Desktop CTA */}
         <div className="hidden lg:flex items-center gap-3">
- <a href="https://app.habitatpilots.com">
+ <a href="https://app.habitatpilots.com" target="blank">
   <Button variant="ghost" size="sm">
     Log In
   </Button>
