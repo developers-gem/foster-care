@@ -13,7 +13,7 @@ const CareModels = () => (
     <PageHero
       badge="Care Models"
       title={<>Every Child Needs the <span className="text-secondary">Right Care Model</span></>}
-      description="Not all children have the same needs.HabitatPilot supports all types of care — ensuring the right environment for every child."
+      description="Not all children have the same needs.Habitat Pilot supports all types of care — ensuring the right environment for every child."
       bannerImage={careModelsBanner}
     />
 
@@ -27,7 +27,7 @@ const CareModels = () => (
 
     <SectionBlock bg="warm" badge="Residential" title="Group Homes (Residential Care)" description="Specialized care for children with complex behavioral or medical needs.">
       <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-        <FeatureCard icon={Building2} title="Staff Coordination" description="HabitatPilot helps coordinate care teams across shifts and departments." index={0} />
+        <FeatureCard icon={Building2} title="Staff Coordination" description="Habitat Pilot helps coordinate care teams across shifts and departments." index={0} />
         <FeatureCard icon={Building2} title="Medication Tracking" description="Automated medication schedules and compliance tracking." index={1} />
         <FeatureCard icon={Building2} title="Behavioral Monitoring" description="Continuous monitoring with trend analysis and incident reporting." index={2} />
       </div>
@@ -56,7 +56,7 @@ const CareModels = () => (
       </div>
     </SectionBlock>
 
-    <SectionBlock bg="warm" badge="Platform" title="How HabitatPilot Supports Every Model" description="Regardless of care model, HabitatPilot provides the tools you need.">
+    <SectionBlock bg="warm" badge="Platform" title="How Habitat Pilot Supports Every Model" description="Regardless of care model, Habitat Pilot provides the tools you need.">
       <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
         <FeatureCard icon={Database} title="Data Continuity" description="Child records follow them across placements and care models seamlessly." index={0} />
         <FeatureCard icon={Database} title="Communication Flow" description="All stakeholders stay connected regardless of care setting." index={1} />
@@ -71,7 +71,7 @@ const CareModels = () => (
       </div>
     </SectionBlock>
 
-    <PageCTA title="Build Better Futures with HabitatPilot" description="Every child deserves the right care model. Let us help you deliver it." primaryLabel="Get Started" secondaryLabel="Learn More" />
+    <PageCTA title="Build Better Futures with Habitat Pilot" description="Every child deserves the right care model. Let us help you deliver it." primaryLabel="Get Started" secondaryLabel="Learn More" />
     <Footer />
   </div>
 );
