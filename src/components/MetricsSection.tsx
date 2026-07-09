@@ -31,7 +31,7 @@ const MetricsSection = () => (
             transition={{ delay: i * 0.1 }}
             className="text-center"
           >
-            <div className="text-4xl md:text-5xl font-bold text-secondary mb-2">{m.value}</div>
+            <div className="text-4xl md:text-5xl font-bold text-white text-secondary mb-2">{m.value}</div>
             <div className="text-primary-foreground/70 text-sm">{m.label}</div>
           </motion.div>
         ))}
