@@ -20,7 +20,7 @@ const HowItWorksSection = () => (
       >
         <span className="text-sm font-semibold text-secondary uppercase tracking-wider">Process</span>
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-3 mb-4">
-          How ResiPilot Works
+          How Habitat Pilot Works
         </h2>
       </motion.div>
 

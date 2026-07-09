@@ -10,10 +10,11 @@ const Footer = () => (
             <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-base">R</span>
             </div>
-            <span className="font-display text-xl font-bold text-secondary-foreground">ResiPilot</span>
+            <span className="font-display text-xl font-bold text-secondary-foreground">Habitat Pilot</span>
           </div>
           <p className="text-secondary-foreground/60 text-sm leading-relaxed">
-            Empowering foster care agencies with intelligent tools for better outcomes.
+            Empowering foster care agency with intelligent tools for better outcomes.
+            {/* Empowering foster care agencies with intelligent tools for better outcomes. */}
           </p>
         </div>
 
@@ -51,7 +52,7 @@ const Footer = () => (
     <div className="border-t border-secondary-foreground/10">
       <div className="container mx-auto px-4 py-5 flex flex-col md:flex-row justify-between items-center gap-3">
         <p className="text-secondary-foreground/40 text-xs">
-          © {new Date().getFullYear()} ResiPilot. All rights reserved.
+          © {new Date().getFullYear()} Habitat Pilot All rights reserved.
         </p>
         <div className="flex gap-6">
           <a href="#" className="text-secondary-foreground/40 hover:text-primary text-xs transition-colors">Terms</a>

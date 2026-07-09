@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Lightbulb, Eye, Shield } from "lucide-react";
 
 const pillars = [
-  { icon: Lightbulb, title: "Compassionate Innovation", desc: "Technology should support human connection—not replace it. ResiPilot uses intelligent tools to enhance decision-making while preserving empathy." },
+  { icon: Lightbulb, title: "Compassionate Innovation", desc: "Technology should support human connection—not replace it. Habitat Pilot uses intelligent tools to enhance decision-making while preserving empathy." },
   { icon: Eye, title: "Radical Transparency", desc: "Every stakeholder sees the same information, reducing confusion and building trust across the care ecosystem." },
-  { icon: Shield, title: "Proactive Support", desc: "Instead of reacting to crises, ResiPilot helps prevent them through early insights and alerts." },
+  { icon: Shield, title: "Proactive Support", desc: "Instead of reacting to crises, Habitat Pilot helps prevent them through early insights and alerts." },
 ];
 
 const PillarsSection = () => (
@@ -18,7 +18,7 @@ const PillarsSection = () => (
       >
         <span className="text-sm font-semibold text-secondary uppercase tracking-wider">Our Foundation</span>
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-3 mb-4">
-          The Three Pillars of ResiPilot
+          The Three Pillars of Habitat Pilot
         </h2>
       </motion.div>
 

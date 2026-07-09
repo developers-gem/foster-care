@@ -10,7 +10,7 @@ import {
 
 const testimonials = [
   {
-    quote: "We went from 4 hours of daily paperwork to 30 minutes. ResiPilot changed how our entire agency operates.",
+    quote: "We went from 4 hours of daily paperwork to 30 minutes. Habitat Pilot changed how our entire agency operates.",
     name: "Maria Chen",
     role: "Program Director, Sunrise Group Homes",
   },

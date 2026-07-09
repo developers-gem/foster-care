@@ -13,7 +13,7 @@ const FamilyJourney = () => (
     <PageHero
       badge="The Family Journey"
       title={<>From First Inquiry to <span className="text-secondary">Lifelong Impact</span></>}
-      description="Becoming a foster parent is a journey filled with purpose — and challenges. ResiPilot ensures you are never alone at any stage."
+      description="Becoming a foster parent is a journey filled with purpose — and challenges. Habitat Pilot ensures you are never alone at any stage."
       ctaText="Start Your Journey"
       bannerImage={familyBanner}
     />
@@ -34,7 +34,7 @@ const FamilyJourney = () => (
       </div>
     </SectionBlock>
 
-    <SectionBlock badge="Step 3" title="First Placement Support" description="The first placement is emotional and critical. ResiPilot is there from hour one.">
+    <SectionBlock badge="Step 3" title="First Placement Support" description="The first placement is emotional and critical. Habitat Pilot is there from hour one.">
       <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
         <FeatureCard icon={Heart} title="First 48-Hour Guidance" description="Detailed support plan for the critical first two days of placement." index={0} />
         <FeatureCard icon={Heart} title="Daily Check-Ins" description="Automated and personal check-ins to ensure everything is going smoothly." index={1} />
@@ -73,7 +73,7 @@ const FamilyJourney = () => (
       </div>
     </SectionBlock>
 
-    <PageCTA title="Start Your Foster Care Journey Today" description="Apply now or talk to an advisor to learn how ResiPilot supports your family." primaryLabel="Apply Now" secondaryLabel="Talk to an Advisor" />
+    <PageCTA title="Start Your Foster Care Journey Today" description="Apply now or talk to an advisor to learn how Habitat Pilot supports your family." primaryLabel="Apply Now" secondaryLabel="Talk to an Advisor" />
     <Footer />
   </div>
 );

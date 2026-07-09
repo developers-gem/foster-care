@@ -13,7 +13,7 @@ const PlatformFeatures = () => (
     <PageHero
       badge="Platform Features"
       title={<>Smart, Scalable, and Built for <span className="text-secondary">Real-World Foster Care</span></>}
-      description="ResiPilot is a complete foster care management system designed to simplify operations, improve placement stability, and empower both agencies and caregivers."
+      description="Habitat Pilot is a complete foster care management system designed to simplify operations, improve placement stability, and empower both agencies and caregivers."
       ctaText="Book a Demo"
       bannerImage={featuresBanner}
     />
@@ -84,7 +84,7 @@ const PlatformFeatures = () => (
       </div>
     </SectionBlock>
 
-    <PageCTA title="See ResiPilot in Action" description="Book a free demo and start your digital transformation today." primaryLabel="Request a Demo" secondaryLabel="Start Free Trial" />
+    <PageCTA title="See Habitat Pilot in Action" description="Book a free demo and start your digital transformation today." primaryLabel="Request a Demo" secondaryLabel="Start Free Trial" />
     <Footer />
   </div>
 );

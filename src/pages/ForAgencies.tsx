@@ -19,7 +19,7 @@ const ForAgencies = () => (
       bannerImage={agenciesBanner}
     />
 
-    <SectionBlock badge="Workload" title="Reduce Caseworker Burnout" description="Caseworkers spend more time on admin than children. ResiPilot changes that.">
+    <SectionBlock badge="Workload" title="Reduce Caseworker Burnout" description="Caseworkers spend more time on admin than children. Habitat Pilot changes that.">
       <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
         <FeatureCard icon={Users} title="Automated Reporting" description="Eliminate hours of manual report creation with intelligent automation." index={0} />
         <FeatureCard icon={Users} title="Centralized Communication" description="One platform for all stakeholder communication — no more email chaos." index={1} />
@@ -58,7 +58,7 @@ const ForAgencies = () => (
       </div>
     </SectionBlock>
 
-    <SectionBlock bg="warm" badge="Scale" title="Scalability for Growing Agencies" description="Whether you manage 50 or 5,000 cases — ResiPilot grows with you.">
+    <SectionBlock bg="warm" badge="Scale" title="Scalability for Growing Agencies" description="Whether you manage 50 or 5,000 cases — Habitat Pilot grows with you.">
       <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
         <FeatureCard icon={Scaling} title="Elastic Infrastructure" description="Our platform scales automatically to meet your growing needs." index={0} />
         <FeatureCard icon={Scaling} title="Multi-Office Support" description="Manage multiple locations and teams from a single platform." index={1} />

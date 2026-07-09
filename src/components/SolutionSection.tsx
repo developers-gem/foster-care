@@ -19,7 +19,7 @@ const SolutionSection = () => (
       >
         <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider mb-4">The Solution</span>
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-3 mb-4">
-          Introducing ResiPilot
+          Introducing Habitat Pilot
         </h2>
         <p className="text-muted-foreground text-lg">
           Designed to eliminate inefficiencies and bring clarity to foster care operations.
