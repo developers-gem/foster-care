@@ -56,7 +56,7 @@ const HeroSection = () => (
           <span className="text-primary">front lines</span> of care.
         </h1>
         <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Centralize behavioral logs, appointments, and guardian communication in one secure platform built for group homes and foster care agencies.
+          Centralize behavioral logs, appointments, and guardian communication in one secure platform built for group homes and foster care agency.
         </p>
         <div className="flex flex-wrap justify-center gap-4 mb-14">
           <Button size="lg" className="text-base px-10 h-14 rounded-full font-semibold bg-primary hover:bg-primary/90 text-primary-foreground text-lg">
